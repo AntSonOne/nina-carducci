@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Nina Carducci - Photographe</title>
-    <meta
-      name="description"
-      content="Nina Carducci - Photographe professionnelle"
-    />
+    <title>Nina Carducci - Photographe Bordeaux</title>
+    <meta name="title" content="Nina Carducci - Photographe Bordeaux" />
+    <meta name="description" content="Nina Carducci - Photographe professionnelle à Bordeaux" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Nina Carducci - Photographe Bordeaux" />
+    <meta property="og:description" content="Nina Carducci - Photographe professionnelle à Bordeaux" />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Nina Carducci - Photographe Bordeaux" />
+    <meta property="twitter:description" content="Nina Carducci - Photographe professionnelle à Bordeaux" />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,19 +25,21 @@
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
   </head>
+  <script async src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+  <script
+    async
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script async src="./assets/maugallery.js"></script>
+  <script async src="./assets/scripts.js"></script>
   <body>
-    <div class="top-header">
+    <header>   
+       <div class="top-header">
       <h1 class="name">Nina Carducci</h1>
-      <div class="nav">
+      <nav class="nav">
         <ul>
           <li><a href="#about">À propos</a></li>
           <li><a href="#gallery">Galerie</a></li>
@@ -44,9 +55,11 @@
             /></a>
           </li>
         </ul>
-      </div>
-    </div>
-    <div id="header">
+      </nav>
+    </div>  
+  </header>
+  <main>
+    <article id="header">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -116,18 +129,18 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
-    <div id="about">
+    </article>
+    <article id="about">
       <div class="picture left">
         <img alt="Nina Carducci portrait" src="./assets/images/nina.AVIF" />
       </div>
       <div id="about-me">
-        <h3 class="about-me__title">A propos de moi</h3>
-        <h6 class="about-me__introduction">
+        <h1 class="about-me__title">A propos de moi</h1>
+        <p class="about-me__introduction">
           Devenir photographe était pour moi une évidence. Comme si j’y étais
           prédestiné. Saisir un moment, une émotion, une situation, un endroit,
           une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-        </h6>
+        </p>
         <p>
           Nous passons notre vie à chercher le bonheur, et lorsque nous y
           touchons, nous n’avons qu’une envie : le figer au travers de
@@ -139,9 +152,9 @@
           lumière à chaque fois que vous poserez les yeux sur vos photos.
         </p>
       </div>
-    </div>
-    <div id="gallery">
-      <h3 class="title">Portfolio</h3>
+    </article>
+    <article id="gallery">
+      <h1 class="title">Portfolio</h1>
       <div class="container py-3">
         <div class="gallery" style="display: none">
           <img
@@ -203,78 +216,78 @@
       <div class="quote">
         <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <h1 class="quote-text">
               Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
               qu’un fait est traduit en photo, il cesse d’être un fait pour
               devenir une opinion. L’inexactitude n’existe pas en photographie.
               Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
             </h1>
           </blockquote>
-          <figcaption class="quote__author">- Richard Avedon</figcaption>
+          <figcaption class="quote-author">- Richard Avedon</figcaption>
         </figure>
       </div>
-    </div>
-    <div id="services">
-      <h3 class="title">Mes services</h3>
+    </article>
+    <article id="services">
+      <h1 class="title">Mes services</h1>
       <div class="container">
         <div class="service">
-          <div class="service__description">
-            <h3>Shooting photo</h3>
+          <div class="service-description">
+            <h2>Shooting photo</h2>
             <p>
               Pour capturer vos moments les plus précieux et garder un souvenir
               impérissable. Je me déplace en Île-de-France pour réaliser vos
               photos
             </p>
           </div>
-          <div class="service__price">
-            <h4>350€/demi journée</h4>
+          <div class="service-description">
+            <h3>350€/demi journée</h3>
             <span>Matériel, déplacement inclus</span>
           </div>
         </div>
         <div class="service">
-          <div class="service__description">
-            <h3>Retouches</h3>
+          <div class="service-description">
+            <h2>Retouches</h2>
             <p>
               Vous souhaitez retoucher vos photos pour un résultat professionnel
               ? Bénéficier d’un rendu optimal pour vos publications
             </p>
           </div>
-          <div class="service__price">
-            <h4>50€/photo</h4>
+          <div class="service-description">
+            <h3>50€/photo</h3>
             <span>2 AR par photo</span>
           </div>
         </div>
         <div class="service">
-          <div class="service__description">
-            <h3>Album photos</h3>
+          <div class="service-description">
+            <h2>Album photos</h2>
             <p>
               Partagez avec vos proches et vos clients les photos des moments
               partagés ensemble à travers un album photo personnalisé
             </p>
           </div>
-          <div class="service__price">
-            <h4>400€ album A4</h4>
+          <div class="service-description">
+            <h3>400€ album A4</h3>
             <span>30 pages recto/verso</span>
           </div>
         </div>
       </div>
-    </div>
-    <div class="quote">
+    </article>
+    <article class="quote">
       <figure>
         <blockquote>
-          <h1 class="quote__text">
+          <h1 class="quote-text">
             De manière inconsciente, je crois, je guette un regard, une
             expression, des traits ou une nostalgie capable de résumer ou plus
             exactement de révéler une vie
           </h1>
         </blockquote>
-        <figcaption class="quote__author">- Richard Avedon</figcaption>
+        <figcaption class="quote-author">- Richard Avedon</figcaption>
       </figure>
-    </div>
-    <div id="contact">
+    </article>
+    <article id="contact">
       <div class="container">
         <div class="form-container">
-          <h3>Une question ? Une demande de devis ?</h3>
+          <h1>Une question ? Une demande de devis ?</h1>
           <p>
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
@@ -292,11 +305,23 @@
             ></textarea>
             <input type="submit" value="Envoyer" />
           </form>
+          <div itemscope itemtype=”http://schema.org/Hotel”>          
+            <div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress” class="d-flex flex-column">
+              <span itemprop="PostalAddress">68 avenue Alsace-Lorraine</span>
+              <span itemprop="PostalAddress">33200</span>
+            <span itemprop=”addressLocality”>Bordeaux</span>
+            <span itemprop=”addressRegion”>France</span>
+            <span itemprop=”phoneNumber”>05 56 67 78 89</span>
+            <span itemprop=”phoneNumber”>du Lundi au Vendredi de 10h à 19h</span>
+            
+          </div>
+        </div>
         </div>
         <div class="picture right">
           <img src="./assets/images/camera.AVIF" alt="camera" />
         </div>
-      </div>
-    </div>
+    </article>
+  </main>
+  <footer></footer>
   </body>
 </html>
