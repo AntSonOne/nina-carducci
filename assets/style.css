@@ -60,7 +60,6 @@ body {
 }
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -83,6 +82,12 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+}
+.image{
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 .gallery .nav {
 	justify-content: center;
